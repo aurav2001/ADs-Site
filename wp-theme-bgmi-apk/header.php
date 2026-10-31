@@ -57,7 +57,7 @@
                 ?>
                     <ul class="nav-menu">
                         <li class="<?php echo is_front_page() ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-                        <li class="highlight-item"><a href="<?php echo esc_url( home_url( '/#download-now' ) ); ?>">⚡ BGMI 3.5 APK</a></li>
+                        <li class="highlight-item"><a href="<?php echo esc_url( home_url( '/#download-now' ) ); ?>"><svg class="ui-icon icon-bolt" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> BGMI 3.5 APK</a></li>
                         <li><a href="<?php echo esc_url( home_url( '/#redeem-codes' ) ); ?>">Redeem Codes</a></li>
                         <li>
                             <a href="#">More Guides ▾</a>

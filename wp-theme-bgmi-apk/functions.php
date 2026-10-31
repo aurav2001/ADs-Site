@@ -192,7 +192,7 @@ function bgmi_apk_meta_box_html( $post ) {
         </p>
         <p>
             <label><strong>Rating (e.g. 4.8 / 5.0):</strong></label><br>
-            <input type="text" name="bgmi_rating" value="<?php echo esc_attr( $rating ?: '4.8 ★' ); ?>" style="width:100%;">
+            <input type="text" name="bgmi_rating" value="<?php echo esc_attr( $rating ?: '4.8' ); ?>" style="width:100%;">
         </p>
         <p>
             <label><strong>Play Store Link:</strong></label><br>

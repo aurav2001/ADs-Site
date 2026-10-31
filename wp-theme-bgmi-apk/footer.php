@@ -17,9 +17,9 @@
                     <p>
                         Your trusted portal for the latest official Battlegrounds Mobile India (BGMI) updates, APK &amp; OBB download guides, patch notes, sensitivity codes, and Free Fire India release news. We provide 100% virus-free, tested direct mirrors.
                     </p>
-                    <div style="margin-top: 14px;">
-                        <span class="meta-pill" style="background:#1e293b; color:#38bdf8; border:1px solid #334155;">🛡️ 100% Clean &amp; Safe</span>
-                        <span class="meta-pill" style="background:#1e293b; color:#4ade80; border:1px solid #334155;">⚡ Fast Direct Servers</span>
+                    <div style="margin-top: 14px; display:flex; gap:8px; flex-wrap:wrap;">
+                        <span class="meta-pill" style="display:inline-flex; align-items:center; gap:6px; background:#1e293b; color:#38bdf8; border:1px solid #334155;"><svg class="ui-icon icon-shield" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg> 100% Clean &amp; Safe</span>
+                        <span class="meta-pill" style="display:inline-flex; align-items:center; gap:6px; background:#1e293b; color:#4ade80; border:1px solid #334155;"><svg class="ui-icon" width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Fast Direct Servers</span>
                     </div>
                 </div>
 
