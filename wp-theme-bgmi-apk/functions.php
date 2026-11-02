@@ -55,6 +55,12 @@ function bgmi_theme_setup() {
 
     // Responsive embeds
     add_theme_support( 'responsive-embeds' );
+
+    // Wide & full-width block alignment
+    add_theme_support( 'align-wide' );
+
+    // Elementor page builder support
+    add_theme_support( 'elementor' );
 }
 add_action( 'after_setup_theme', 'bgmi_theme_setup' );
 
@@ -271,3 +277,9 @@ function bgmi_ad_shortcode( $atts ) {
     </div>';
 }
 add_shortcode( 'ad_banner', 'bgmi_ad_shortcode' );
+
+/**
+ * Elementor Compatibility & Custom Widgets Integration
+ */
+require_once get_template_directory() . '/inc/elementor/elementor.php';
+

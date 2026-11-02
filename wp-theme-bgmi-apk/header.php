@@ -10,6 +10,10 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
+<?php
+// Elementor Theme Builder: Custom Header Support
+if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'header' ) ) :
+?>
 <!-- Top Notice Bar -->
 <div class="top-notice-bar">
     <div class="site-container">
@@ -85,6 +89,7 @@
         </div>
     </div>
 </header>
+<?php endif; // End Elementor Header check ?>
 
 <!-- Header Ad Slot Area -->
 <div class="site-container">

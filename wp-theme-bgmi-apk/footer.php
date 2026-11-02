@@ -4,6 +4,9 @@
  *
  * @package BGMI_APK_Pro
  */
+
+// Elementor Theme Builder: Custom Footer Support
+if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'footer' ) ) :
 ?>
 
 <!-- Site Footer -->
@@ -64,6 +67,7 @@
         </div>
     </div>
 </footer>
+<?php endif; // End Elementor Footer check ?>
 
 <!-- Floating Back to Top Button -->
 <div class="back-to-top" id="backToTop" title="Back to Top">

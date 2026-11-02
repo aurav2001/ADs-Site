@@ -1981,3 +1981,45 @@ h1.entry-title,
   color: #f59e0b;
 }
 
+/* ------------------------------------------------------------------------- *
+ *  Elementor Compatibility & Full-Width Canvas Styles
+/* ------------------------------------------------------------------------- */
+.elementor-fullwidth-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.elementor-canvas-template {
+  background: var(--body-bg);
+  color: var(--text-main);
+  padding: 0;
+  margin: 0;
+}
+
+.elementor-canvas-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Ensure Elementor boxed sections align with theme max width */
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: var(--max-width);
+}
+
+/* Custom Elementor Widgets Editor & Frontend Styling */
+.elementor-widget-bgmi_download_box .elementor-download-box {
+  margin: 0;
+}
+
+.elementor-widget-bgmi_specs_table .elementor-specs-table-wrapper {
+  margin: 0;
+}
+
+.elementor-widget-bgmi_games_grid .elementor-posts-grid {
+  margin-bottom: 0;
+}
+
+
