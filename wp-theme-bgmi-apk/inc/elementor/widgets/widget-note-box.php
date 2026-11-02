@@ -80,3 +80,4 @@ class BGMI_Widget_Note_Box extends Widget_Base {
         <?php
     }
 }
+

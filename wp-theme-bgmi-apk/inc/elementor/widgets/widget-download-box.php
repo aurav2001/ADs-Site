@@ -410,3 +410,4 @@ class BGMI_Widget_Download_Box extends Widget_Base {
         <?php
     }
 }
+

@@ -121,3 +121,4 @@ class BGMI_Widget_Ad_Slot extends Widget_Base {
         <?php
     }
 }
+

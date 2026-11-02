@@ -87,3 +87,4 @@ function bgmi_elementor_init() {
     }
 }
 add_action( 'plugins_loaded', 'bgmi_elementor_init' );
+

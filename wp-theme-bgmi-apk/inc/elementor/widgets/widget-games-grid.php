@@ -318,3 +318,4 @@ class BGMI_Widget_Games_Grid extends Widget_Base {
         echo '</div>';
     }
 }
+

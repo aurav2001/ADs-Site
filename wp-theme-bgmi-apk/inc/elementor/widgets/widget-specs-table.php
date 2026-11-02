@@ -197,3 +197,4 @@ class BGMI_Widget_Specs_Table extends Widget_Base {
         <?php
     }
 }
+
